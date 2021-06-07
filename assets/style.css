@@ -1,0 +1,31 @@
+.ima {
+  max-width: 400px;
+  max-height: 475px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ima img {
+  margin: 0 -100px -100px -190px;
+}
+
+.move {
+  max-width: 400px;
+  max-height: 475px;
+  font-family: Yu Gothic UI;
+}
+
+.move h2 {
+  color: #FF6836;
+}
+
+.move .texte {
+  padding: 30px;
+}
+
+.cercle {
+  position: absolute;
+  left: 310px;
+  top: 8px;
+}
+/*# sourceMappingURL=style.css.map */
