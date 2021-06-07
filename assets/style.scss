@@ -10,8 +10,10 @@ body {
    height: 475px;
     position: relative;
     overflow: hidden;
-
-    
+    transition: opacity 2s;
+    &:hover {
+        opacity: 0.2;
+    }
 
     img {
         margin: 0 -100px -100px -190px;
@@ -24,7 +26,7 @@ body {
     font-family: Yu Gothic UI;
     position: absolute;
     margin-top: -100px;
-    transition: margin 3s;
+    transition: margin 2s;
     &:hover {
         margin-top: -200px;
     }
