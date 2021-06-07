@@ -1,19 +1,21 @@
 body {
-    background-color: black;
+    background-color: linen;
 }
 .all {
     max-width: 400px;
     max-height: 475px;
 }
 .ima {
-    max-width: 400px;
-    max-height: 475px;
+   width: 400px;
+   height: 475px;
     position: relative;
     overflow: hidden;
+
     
+
     img {
         margin: 0 -100px -100px -190px;
-    }
+        }
 }
 
 .move {
@@ -39,8 +41,8 @@ body {
 // je suis pas sûre mais j'essaye de faire du Sass...
 .cercle {
     position: absolute;
-    left: 310px;
-    top: 8px;
+    left: 305px;
+    top: -645px;
     }
 
 .static {
@@ -48,8 +50,11 @@ body {
     color: #817974;
     font-family: Yu Gothic UI;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
+    margin-top: -130px;
+    z-index: 1;
+    position: relative;
 
     .timer {
         width: 13px;
