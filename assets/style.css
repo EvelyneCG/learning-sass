@@ -22,6 +22,13 @@ body {
   max-width: 400px;
   max-height: 475px;
   font-family: Yu Gothic UI;
+  position: relative;
+  -webkit-transition: margin 3s;
+  transition: margin 3s;
+}
+
+.move:hover {
+  margin-top: -200px;
 }
 
 .move h2 {
@@ -44,9 +51,9 @@ body {
 }
 
 .cercle {
-  position: absolute;
+  position: fixed;
   left: 305px;
-  top: -645px;
+  top: 10px;
 }
 
 .static {
@@ -58,7 +65,8 @@ body {
   padding-bottom: 20px;
   margin-top: -130px;
   z-index: 1;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .static .timer {

@@ -22,6 +22,11 @@ body {
     max-width: 400px;
     max-height: 475px;
     font-family: Yu Gothic UI;
+    position: relative;
+    transition: margin 3s;
+    &:hover {
+        margin-top: -200px;
+    }
     h2 {
         color: #FF6836;
     }
@@ -40,9 +45,9 @@ body {
 }
 // je suis pas sûre mais j'essaye de faire du Sass...
 .cercle {
-    position: absolute;
+    position: fixed;
     left: 305px;
-    top: -645px;
+    top: 10px;
     }
 
 .static {
@@ -54,7 +59,7 @@ body {
     padding-bottom: 20px;
     margin-top: -130px;
     z-index: 1;
-    position: relative;
+    position: sticky;
 
     .timer {
         width: 13px;
