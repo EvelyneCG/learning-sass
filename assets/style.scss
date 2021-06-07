@@ -22,7 +22,8 @@ body {
     max-width: 400px;
     max-height: 475px;
     font-family: Yu Gothic UI;
-    position: relative;
+    position: absolute;
+    margin-top: -100px;
     transition: margin 3s;
     &:hover {
         margin-top: -200px;
@@ -55,9 +56,9 @@ body {
     color: #817974;
     font-family: Yu Gothic UI;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-bottom: 20px;
-    margin-top: -130px;
+    margin-top: 50px;
     z-index: 1;
     position: sticky;
 
